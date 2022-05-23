@@ -1,0 +1,22 @@
+.preview {
+  width: 250px;
+  height: 150px;
+}
+
+.preview-img {
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
+
+.header-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
